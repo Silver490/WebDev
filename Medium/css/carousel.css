@@ -1,0 +1,26 @@
+.carousel-heading{
+    font-size: 110px;
+    font-weight: 500;
+    margin-top: 63px;
+}
+.carousel-text{
+    font-size: 24px;
+    margin: 16px 0;
+    font-family: sans-serif;
+    width: 430px;
+}
+
+.carousel-button{
+    font-size: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    height: 42px;
+    width: 210px;
+    border-radius: 25px;
+    margin: 30px 0;
+}
+
+.carousel{
+    /* margin: 0px 50px; */
+}

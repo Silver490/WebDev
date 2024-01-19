@@ -1,0 +1,45 @@
+#navbar{
+    height: 75px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color:#FFC017;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-logo{
+    width: 165px;
+    height: 40%;
+    margin-top: 26px;
+    /* border: 1px solid black; */
+    background: url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Medium_%28website%29_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-links{
+    width: 430px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.get-started{
+    height: 38px;
+    width: 110px;
+    border: 0px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+
+}
