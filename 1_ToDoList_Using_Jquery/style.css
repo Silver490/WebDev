@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(153, 138, 164);
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: purple;
+  border-bottom: 1px solid #ccc;
+}
+
+.input-n-btn {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.newtask {
+  font-size: 18px;
+  /* width: 332px; */
+  width: 60%;
+  height: 27px;
+  padding-left:5px;
+  border: 1px solid #ccc;
+  background-color: rgb(239, 224, 253);
+}
+
+.btn {
+  height: 28px;
+  /* width: 70px; */
+  width: 8%;
+  border: none;
+  background-color: rgb(201, 143, 255);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  /* font-size: rem; */
+}
+
+.tasklist{
+    /* width: 410px; */
+    width: 69%;
+    color: rebeccapurple;
+    margin: 40px auto;
+    list-style: none;
+    
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:5px;
+    border-bottom: 1px solid rgb(233, 223, 242);
+    margin:20px 0px ;
+    font-size: 25px;
+    color: rgb(238, 238, 238);
+}
+
+.upbtn,
+.downbtn,
+.deletebtn{
+    background-color: rgb(201, 143, 255);
+    border: 1px solid rgb(224, 157, 249);
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0px 0px 2px 2px ;
+    color: white;
+    font-size: 18px;
+}
+
+.btngrp{
+    display: flex;
+    align-items: center;
+}
+
+li:first-child .btngrp .upbtn,
+li:last-child .btngrp .downbtn{
+    display: none;
+}
+
